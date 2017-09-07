@@ -39,7 +39,7 @@ main() {
 					}
 					else{
 						float c=a;
-						printf("%i / %i = %i",a,b,c/b);
+						printf("%i / %i = %0.2f",a,b,c/b);
 					}
 					break;		
 			}
