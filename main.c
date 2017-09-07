@@ -41,9 +41,14 @@ main() {
 						float c=a;
 						printf("%i / %i = %0.2f",a,b,c/b);
 					}
-					break;		
+					break;
+				case 5:
+					printf("Tam biet.");
+					break;	
+				default:printf("Yeu cau sai. Vui long nhap lai.");		
 			}
-			if(x==5)
-			break;		
-}
+			if(x==5){			
+				break;	
+			}					
+		}
 }
